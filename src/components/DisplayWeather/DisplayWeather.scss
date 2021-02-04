@@ -1,0 +1,26 @@
+.display-weather {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  color: #ffffff;
+  text-align: center;
+
+  .display-weather_top {
+    display: inline;
+    font-size: 180px;
+    font-weight: 400;
+  }
+
+  .description {
+    font-size: 25px;
+
+
+    &:first-letter {
+      text-transform: uppercase;
+    }
+  }
+
+
+}
+

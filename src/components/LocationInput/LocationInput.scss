@@ -1,0 +1,49 @@
+.location-input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  .location-input_container {
+    margin-left: 96px;
+    margin-top: 86px;
+    width: 580px;
+    height: 100px;
+    border-radius: 8px;
+    background: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+
+    .location-input_work {
+      padding: 10px;
+    }
+
+    button {
+      background: transparent;
+      border: 0;
+      outline: none;
+      font-size: 30px;
+      color: #1086FF;
+      cursor: pointer;
+
+      &:active {
+        font-size: 28px;
+      }
+    }
+
+    .location-input_input {
+      font-size: 30px;
+      border: 0;
+      margin-left: 20px;
+      padding: 0;
+      width: 480px;
+      height: 80px;
+
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+
+
+}
