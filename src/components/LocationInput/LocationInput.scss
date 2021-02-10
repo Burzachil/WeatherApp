@@ -16,6 +16,9 @@
 
     .location-input_work {
       padding: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
     }
 
     button {
@@ -37,13 +40,28 @@
       margin-left: 20px;
       padding: 0;
       width: 480px;
-      height: 80px;
+      height: 90%;
 
       &:focus {
         outline: none;
       }
     }
   }
+}
 
+@media all and (max-width: 700px) {
+  .location-input {
+    .location-input_container {
+      width: 360px;
+      height: 60px;
+      margin-left: 10px;
+      margin-top: 10px;
 
+      .location-input_input {
+        width: 70%;
+        font-size: 20px;
+        margin-left: 0;
+      }
+    }
+  }
 }

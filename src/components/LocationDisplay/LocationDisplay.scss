@@ -36,3 +36,14 @@
     }
   }
 }
+
+@media all and (max-width: 700px){
+  .location-display {
+    .location_footer {
+      button {
+        margin-right: 0;
+        font-size: 16px;
+      }
+    }
+  }
+}

@@ -13,7 +13,7 @@ const DisplayWeather: React.FC = () => {
             const temp = Number(state.temp.toFixed(0))
             const res = temperatureMode === 'celsius' ?
                 temp + '°' :
-                temp * 1.8 + 32 + '°F'
+                Math.round(temp * 1.8 + 32) + '°F'
             return res
         } else {
             return ''

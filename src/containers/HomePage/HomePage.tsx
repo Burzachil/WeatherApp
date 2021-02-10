@@ -10,9 +10,9 @@ const HomePage: React.FC = () => {
     return (
         <div className='home-page'>
             <Location />
+            <TemperaturesModes />
             <DisplayWeather />
             <WeatherParams />
-            <TemperaturesModes />
         </div>
     )
 }

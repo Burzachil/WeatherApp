@@ -2,3 +2,10 @@
   padding-top: 75px;
   padding-left: 100px;
 }
+
+@media all and (max-width: 700px){
+  .location {
+    padding-top: 15px;
+    padding-left: 25px;
+  }
+}
